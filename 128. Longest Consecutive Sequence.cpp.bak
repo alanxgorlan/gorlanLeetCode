@@ -1,0 +1,16 @@
+class solution{
+	int longestConsecutive(vector<int>& nums){
+		unordered_set _set;
+		int len = nums.size();
+		for(int i = 0;i < len;i++)
+			_set.insert(nums[i]);
+		
+		int longest = 0;
+		
+		while(_set.size()>0)
+		{
+			int cnt = 1;
+			int tmpR = tmp + 1;
+		}
+	}
+}
